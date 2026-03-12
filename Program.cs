@@ -455,7 +455,7 @@ class Program
         order1.setOrderNumber(1001);
         order1.setTotalAmount(1200);
         order1.setIsPaid(true);
-        Console.WriteLine($"commande 1 : {order1.getOrderNumber()} total amount: {order1.getTotalAmount()}, is paid: {order1.getIsPaid()}");
+        Console.WriteLine($"commande 1 : {order1.getOrderNumber()} , total amount: {order1.getTotalAmount()} , is paid: {order1.getIsPaid()}");
 
         // crée un objet en utilisant les propriétés
         Item item1 = new Item();
@@ -494,6 +494,6 @@ class Program
         order1.OrderNumber = 1001;
         order1.TotalAmount = 1200;
         order1.IsPaid = true;
-        Console.WriteLine($"commande 1 : {order1.OrderNumber} total amount: {order1.TotalAmount}, is paid: {order1.IsPaid}");
+        Console.WriteLine($"commande 1 : {order1.OrderNumber} , total amount: {order1.TotalAmount} , is paid: {order1.IsPaid}");
     }
 }
